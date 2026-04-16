@@ -1,5 +1,29 @@
 # @hyperdx/app
 
+## 2.24.0
+
+### Minor Changes
+
+- 0bfec148: Upgrade Mantine from v7 to v9 and remove react-hook-form-mantine dependency
+
+### Patch Changes
+
+- 1fada918: feat: Support alerts on Raw SQL Number Charts
+- c4a1311e: fix: Fix "Copy entire row as JSON" button crashing on rows with non-string values
+- a5869f0e: Dedupe source validation issue toasts so repeated source refetches update a single notification instead of stacking duplicates.
+- d3a61f9b: feat: Add additional alert threshold types
+- 5149fabd: feat: Add Python Runtime Metrics dashboard template
+- 085f3074: feat: Implement alerting for Raw SQL-based dashboard tiles
+- 6ff1ba60: feat: Add alert history + ack to alert editor
+- 4ca1d472: Allow manually constructed /trace URLs to land in the existing search experience with the trace viewer opened from URL state. This keeps trace deep links user-friendly while reusing the search page for source selection, not-found handling, and trace inspection.
+- Updated dependencies [418f70c5]
+- Updated dependencies [1fada918]
+- Updated dependencies [d3a61f9b]
+- Updated dependencies [cc714f90]
+- Updated dependencies [085f3074]
+- Updated dependencies [6ff1ba60]
+  - @hyperdx/common-utils@0.17.2
+
 ## 2.23.2
 
 ### Patch Changes
