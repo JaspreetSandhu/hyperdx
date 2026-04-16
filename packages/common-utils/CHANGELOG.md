@@ -1,5 +1,16 @@
 # @hyperdx/common-utils
 
+## 0.17.2
+
+### Patch Changes
+
+- 418f70c5: Add Drain log template mining library (ported from browser-drain)
+- 1fada918: feat: Support alerts on Raw SQL Number Charts
+- d3a61f9b: feat: Add additional alert threshold types
+- cc714f90: fix: Skip rendering empty SQL dashboard filter
+- 085f3074: feat: Implement alerting for Raw SQL-based dashboard tiles
+- 6ff1ba60: feat: Add alert history + ack to alert editor
+
 ## 0.17.1
 
 ### Patch Changes
